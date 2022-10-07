@@ -98,18 +98,9 @@ div.contentLeftContainer {
     border-radius: 16px;
 }
 
-div.contentRightContainer {
-    width: 284px;
-    height: 469px;
-    margin-top: 16px;
-    margin-left: 16px;
-    background-color: dodgerblue;
-    float: left;
-    border-radius: 16px;
-}
-
 div.contentImgContainer {
-    width: 418px;
+    width: 386px;
+    margin: 0px auto;
 }
 
 img.neymarImg {
@@ -154,6 +145,44 @@ img.contentTitleImg {
     display: block;
     margin: 0px auto;
 }
+
+div.contentRightContainer {
+    width: 284px;
+    height: 469px;
+    margin-top: 16px;
+    margin-left: 16px;
+    background-color: dodgerblue;
+    float: left;
+    border-radius: 16px;
+}
+
+div.contentRightTitleContainer {
+    background-color: rgb(23, 100, 177);
+    margin: 0px auto;
+    width: 248px;
+
+    border-radius: 8px;
+}
+
+div.contentRightDivContainer {
+    width: 272px;
+    height: 126px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+div.howToWatchItContainer {
+    padding: 10px;
+    float: left;
+    background-color: rgb(23, 100, 177);
+    margin: 0 8px;
+    border-radius: 16px;
+}
+
+div.howToWatchItContainer a img {
+    width: 100px;
+}
+
 div.footerContainer {
     width: 1000px;
     height: 93px;
